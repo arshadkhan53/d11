@@ -1,0 +1,68 @@
+# === Drupal Core/Contrib/Vendor ===
+/core/
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+/web/sites/*/files/
+!web/sites/default/files/.gitkeep
+
+# === Configuration sync ===
+/config/sync/*
+
+# === Private files directory (if outside docroot) ===
+/private/
+
+# === Environment & secret files ===
+.env
+.env.local
+.envrc
+.settings.php
+
+# === IDE/Editor Settings ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS-generated Files ===
+.DS_Store
+Thumbs.db
+
+# === Composer ===
+composer.lock
+composer.phar
+
+# === DDEV Local Dev Environment ===
+.ddev/
+
+# === Terraform ===
+*.tf
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# === Node and Frontend ===
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# === Logs and Temp ===
+*.log
+/tmp/
+.drush/cache/
+.drush/backups/
+
+# === PHPUnit ===
+.phpunit.result.cache
+phpunit.xml
+
+# === Docker-specific ===
+docker-compose.override.yml
+docker-compose.local.yml
+
