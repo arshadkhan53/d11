@@ -32,7 +32,7 @@
 Thumbs.db
 
 # === Composer ===
-composer.lock
+# composer.lock
 composer.phar
 
 # === DDEV Local Dev Environment ===
